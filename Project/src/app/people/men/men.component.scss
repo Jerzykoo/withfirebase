@@ -1,0 +1,53 @@
+
+div{
+  padding-bottom: 15px;
+  border: 2px solid black;
+  width: 24.5vw;
+  // flex-direction: raw;
+  // display: flex;
+}
+button{
+  // height: 24px;
+  background: #000;
+  border: none;
+  color: white;
+  font-size: 22px;
+  padding: 10px 7px;
+  margin-left: 5px;
+  // margin-bottom: 10px;
+  cursor: pointer;
+  transition: .3s;
+}
+p,button{
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+p{
+  font-size: 30px;
+}
+
+p input{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 30px;
+  width: 35px;
+  // height: 24px;
+  margin-left: 10px;
+}
+
+button:hover{
+color: gold;
+
+}
+
+section{
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;;
+}
+
+img{
+  width: 260px;
+  height: 260px;
+}
+
+

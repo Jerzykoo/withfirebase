@@ -1,0 +1,12 @@
+<section>
+
+  <div *ngFor="let item of tab">
+    <img src="/Project/src/app/people/photos/{{item.name}}.jpg" alt="">
+    <p>{{item.name}} - {{item.price}}zł</p>
+    <p>ilość:<input (input)="onInputChange($event,item)" type="number">
+      <button (click)="addToBasket(item)">Dodaj do koszyka</button>
+    </p>
+
+  </div>
+
+</section>
